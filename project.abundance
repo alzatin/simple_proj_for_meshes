@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "simple_proj_for_meshes",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 1719329731997,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsIndex": "Inches",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}

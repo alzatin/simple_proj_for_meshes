@@ -39,23 +39,6 @@
             "unionType": "Assembly"
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5269151138716356,
-            "y": 0.2577639751552795,
-            "uniqueID": 1719415377896,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719330270543
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.13561076604554864,
@@ -100,17 +83,17 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6325051759834369,
-            "y": 0.4751552795031056,
+            "x": 0.598343685300207,
+            "y": 0.36645962732919257,
             "uniqueID": 1719415628038,
             "ioValues": [
                 {
                     "name": "geometry2",
-                    "ioValue": 1719415653046
+                    "ioValue": 1719415356811
                 },
                 {
                     "name": "geometry1",
-                    "ioValue": 1719415377896
+                    "ioValue": 1719330270543
                 }
             ]
         },
@@ -153,29 +136,96 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5942028985507246,
-            "y": 0.7608695652173914,
-            "uniqueID": 1719415653046,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719415356811
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1719330243723,
             "ioValues": []
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5734989648033126,
+            "y": 0.6801242236024845,
+            "uniqueID": 1719415918276,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719415628038
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 10
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.6583850931677019,
+            "y": 0.7981366459627329,
+            "uniqueID": 1719415924019,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719415918276
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 30
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 180
+                }
+            ]
+        },
+        {
+            "atomType": "Loft",
+            "name": "Loft",
+            "x": 0.7577639751552795,
+            "y": 0.5062111801242236,
+            "uniqueID": 1719415968157,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1719415924019
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1719415628038
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1719415924019
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1719415628038
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                }
+            ],
+            "closedSelection": 0
         }
     ],
     "allConnectors": [
@@ -188,16 +238,9 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719330270543,
-            "ap2ID": 1719415377896
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 1719415377896,
+            "ap1ID": 1719330270543,
             "ap2ID": 1719415628038
         },
         {
@@ -218,8 +261,22 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
+            "ap1ID": 1719415628038,
+            "ap2ID": 1719415918276
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1719415628038,
+            "ap2ID": 1719415968157
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
             "ap1ID": 1719415356811,
-            "ap2ID": 1719415653046
+            "ap2ID": 1719415628038
         },
         {
             "ap1Name": "geometry",
@@ -230,10 +287,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry2",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1719415918276,
+            "ap2ID": 1719415924019
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
             "ap2Primary": false,
-            "ap1ID": 1719415653046,
-            "ap2ID": 1719415628038
+            "ap1ID": 1719415924019,
+            "ap2ID": 1719415968157
         }
     ],
     "unitsIndex": "Inches",

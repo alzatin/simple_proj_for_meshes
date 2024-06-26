@@ -146,8 +146,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.589126559714795,
-            "y": 0.7639751552795032,
+            "x": 0.6925133689839572,
+            "y": 0.7857142857142857,
             "uniqueID": 1719412762075,
             "ioValues": [
                 {
@@ -174,12 +174,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1719330243723,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1719412762075
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -231,13 +226,6 @@
             "ap2Primary": true,
             "ap1ID": 1719412758113,
             "ap2ID": 1719412762075
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1719412762075,
-            "ap2ID": 1719330243723
         }
     ],
     "unitsIndex": "Inches",

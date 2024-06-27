@@ -4,6 +4,6 @@
 
 ![](/project.svg)
 
-[object Promise]
+undefined
 
 

@@ -130,7 +130,7 @@
             "uniqueID": 1719519431759,
             "ioValues": [
                 {
-                    "name": "number or geometry",
+                    "name": "geometry",
                     "ioValue": 1719510833234
                 }
             ],
@@ -246,7 +246,7 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1719510833234,
             "ap2ID": 1719519431759

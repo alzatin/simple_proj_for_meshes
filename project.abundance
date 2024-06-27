@@ -39,6 +39,23 @@
             "unionType": "Assembly"
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5669125395152792,
+            "y": 0.30094043887147337,
+            "uniqueID": 1719510833234,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": 1719415356811
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": 1719330270543
+                }
+            ]
+        },
+        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.13561076604554864,
@@ -81,36 +98,6 @@
             ]
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.5669125395152792,
-            "y": 0.30094043887147337,
-            "uniqueID": 1719510833234,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": 1719415356811
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": 1719330270543
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3302277432712215,
-            "y": 0.8385093167701863,
-            "uniqueID": 1719415011884,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 3
-                }
-            ]
-        },
-        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.4288724973656481,
@@ -124,44 +111,6 @@
                 {
                     "name": "xDist",
                     "ioValue": 5
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1719330243723,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1719510875094
-                }
-            ]
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.5922023182297155,
-            "y": 0.7899686520376176,
-            "uniqueID": 1719510861398,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719415356811
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 10
                 },
                 {
                     "name": "yDist",
@@ -205,6 +154,57 @@
                     "ioValue": ""
                 }
             ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.3302277432712215,
+            "y": 0.8385093167701863,
+            "uniqueID": 1719415011884,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 3
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5922023182297155,
+            "y": 0.7899686520376176,
+            "uniqueID": 1719510861398,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719415356811
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 10
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1719330243723,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1719510875094
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -245,13 +245,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719415011884,
-            "ap2ID": 1719415356811
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 1719415356811,
@@ -266,17 +259,24 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 1719510861398,
-            "ap2ID": 1719510875094
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 1719510875094,
             "ap2ID": 1719330243723
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1719415011884,
+            "ap2ID": 1719415356811
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1719510861398,
+            "ap2ID": 1719510875094
         }
     ],
     "unitsIndex": "Inches",

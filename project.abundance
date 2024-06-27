@@ -123,37 +123,19 @@
             ]
         },
         {
-            "atomType": "ShrinkWrap",
-            "name": "Shrink Wrap",
-            "x": 0.7239199157007377,
-            "y": 0.8181818181818181,
-            "uniqueID": 1719510875094,
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.761854583772392,
+            "y": 0.4702194357366772,
+            "uniqueID": 1719519431759,
             "ioValues": [
                 {
-                    "name": "3D shape 2",
-                    "ioValue": 1719510861398
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 1719330270543
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 1719510861398
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 1719330270543
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": ""
+                    "name": "number or geometry",
+                    "ioValue": 1719510833234
                 }
-            ]
+            ],
+            "readmeText": "Readme text here",
+            "global": true
         },
         {
             "atomType": "Circle",
@@ -194,6 +176,39 @@
             ]
         },
         {
+            "atomType": "ShrinkWrap",
+            "name": "Shrink Wrap",
+            "x": 0.7239199157007377,
+            "y": 0.8181818181818181,
+            "uniqueID": 1719510875094,
+            "ioValues": [
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1719510861398
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1719330270543
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1719510861398
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1719330270543
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": ""
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
@@ -205,21 +220,6 @@
                     "ioValue": 1719510875094
                 }
             ]
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.761854583772392,
-            "y": 0.4702194357366772,
-            "uniqueID": 1719519431759,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1719510833234
-                }
-            ],
-            "readmeText": "Readme text here",
-            "global": true
         }
     ],
     "allConnectors": [
@@ -281,13 +281,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1719510875094,
-            "ap2ID": 1719330243723
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1719415011884,
@@ -299,6 +292,13 @@
             "ap2Primary": false,
             "ap1ID": 1719510861398,
             "ap2ID": 1719510875094
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1719510875094,
+            "ap2ID": 1719330243723
         }
     ],
     "unitsIndex": "Inches",

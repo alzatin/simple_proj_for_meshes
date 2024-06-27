@@ -23,8 +23,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.3677555321390938,
-            "y": 0.34796238244514105,
+            "x": 0.40569020021074814,
+            "y": 0.3573667711598746,
             "uniqueID": 1719330270543,
             "ioValues": [
                 {
@@ -37,31 +37,6 @@
                 }
             ],
             "unionType": "Assembly"
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.5079030558482613,
-            "y": 0.21316614420062696,
-            "uniqueID": 1719415918276,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719330270543
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 10
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
         },
         {
             "atomType": "Rectangle",
@@ -106,73 +81,6 @@
             ]
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.6406743940990517,
-            "y": 0.3040752351097179,
-            "uniqueID": 1719415628038,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": 1719415918276
-                }
-            ]
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.4109730848861284,
-            "y": 0.639751552795031,
-            "uniqueID": 1719416281541,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719330262485
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 30
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.634575569358178,
-            "y": 0.5372670807453416,
-            "uniqueID": 1719430406735,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719415918276
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 90
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 180
-                }
-            ]
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.3302277432712215,
@@ -186,35 +94,10 @@
             ]
         },
         {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.6211180124223602,
-            "y": 0.7236024844720497,
-            "uniqueID": 1719430460174,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719415918276
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 60
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 180
-                }
-            ]
-        },
-        {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4341412012644889,
-            "y": 0.8714733542319749,
+            "x": 0.42781875658587987,
+            "y": 0.8652037617554859,
             "uniqueID": 1719415356811,
             "ioValues": [
                 {
@@ -223,7 +106,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 10
+                    "ioValue": 5
                 },
                 {
                     "name": "yDist",
@@ -236,31 +119,6 @@
             ]
         },
         {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.6190476190476191,
-            "y": 0.8944099378881988,
-            "uniqueID": 1719415924019,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719415918276
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 30
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 180
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
@@ -269,19 +127,19 @@
             "ioValues": []
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.49420442571127504,
-            "y": 0.43260188087774293,
-            "uniqueID": 1719510534185,
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5384615384615384,
+            "y": 0.542319749216301,
+            "uniqueID": 1719510833234,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1719330270543
+                    "name": "geometry2",
+                    "ioValue": 1719415356811
                 },
                 {
-                    "name": "height",
-                    "ioValue": 10
+                    "name": "geometry1",
+                    "ioValue": 1719330270543
                 }
             ]
         }
@@ -296,45 +154,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719330270543,
-            "ap2ID": 1719415918276
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719330270543,
-            "ap2ID": 1719510534185
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719415918276,
-            "ap2ID": 1719415924019
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719415918276,
-            "ap2ID": 1719430406735
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719415918276,
-            "ap2ID": 1719430460174
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 1719415918276,
-            "ap2ID": 1719415628038
+            "ap1ID": 1719330270543,
+            "ap2ID": 1719510833234
         },
         {
             "ap1Name": "geometry",
@@ -354,15 +177,15 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 1719330262485,
-            "ap2ID": 1719416281541
+            "ap1ID": 1719415011884,
+            "ap2ID": 1719415356811
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719415011884,
-            "ap2ID": 1719415356811
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1719415356811,
+            "ap2ID": 1719510833234
         }
     ],
     "unitsIndex": "Inches",

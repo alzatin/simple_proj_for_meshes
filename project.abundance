@@ -214,7 +214,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1719330243723,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1719510875094
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -287,6 +292,13 @@
             "ap2Primary": false,
             "ap1ID": 1719510861398,
             "ap2ID": 1719510875094
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1719510875094,
+            "ap2ID": 1719330243723
         }
     ],
     "unitsIndex": "Inches",

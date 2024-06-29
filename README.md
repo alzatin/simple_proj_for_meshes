@@ -4,9 +4,5 @@
 
 ![](/project.svg)
 
- 
 
-![readme](/readme1719596333544.svg)
-
-Readme text here
 

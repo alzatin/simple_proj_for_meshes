@@ -222,12 +222,7 @@
             "x": 0.7123287671232877,
             "y": 0.7711598746081505,
             "uniqueID": 1719596333544,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719415011884
-                }
-            ],
+            "ioValues": [],
             "readmeText": "Readme text here",
             "global": true
         }
@@ -291,13 +286,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1719415011884,
-            "ap2ID": 1719596333544
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 1719510861398,
@@ -321,14 +309,9 @@
     ],
     "projectSVGs": [
         {
-            "uniqueID": 1719519431759,
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-7.000001 -7.000001 20.000002 14.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 3.31662 -5 L 12 -5 L 12 5 L 3.31662 5 A 6 6 0 0 1 -6 0 A 6 6 0 0 1 3.31662 -5 Z\" />\n    <path d=\"M 4.875 3.49777 A 3.5 3.5 0 0 0 8.5 0 A 3.5 3.5 0 0 0 4.875 -3.49777 A 3.5 3.5 0 0 0 1.5 0 A 3.5 3.5 0 0 0 4.875 3.49777 Z\" />\n</svg>",
-            "sha": "a9da829fa00909e2c88a19e8e4190665357e4e8d"
-        },
-        {
             "uniqueID": 1719596333544,
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-4.500001 -4.500001 9.000002 9.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -3.5 0 A 3.5 3.5 0 0 0 3.5 0 A 3.5 3.5 0 0 0 -3.5 0 Z\" />\n</svg>",
-            "sha": "a9da829fa00909e2c88a19e8e4190665357e4e8d"
+            "sha": "aa94077750e2316e2a19e2560b511809b54a2778"
         }
     ],
     "filetypeVersion": 1

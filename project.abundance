@@ -125,10 +125,15 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.7766069546891464,
-            "y": 0.3040752351097179,
+            "x": 0.79768177028451,
+            "y": 0.322884012539185,
             "uniqueID": 1719519431759,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719510833234
+                }
+            ],
             "readmeText": "this is the pattern to be extruded",
             "global": true
         },
@@ -219,11 +224,16 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.7787144362486829,
-            "y": 0.884012539184953,
+            "x": 0.8324552160168599,
+            "y": 0.8338557993730408,
             "uniqueID": 1719596333544,
-            "ioValues": [],
-            "readmeText": "Readme text here",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719510875094
+                }
+            ],
+            "readmeText": "Shrinked form",
             "global": true
         },
         {
@@ -276,6 +286,13 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1719510833234,
+            "ap2ID": 1719519431759
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1719330252588,
             "ap2ID": 1719330262485
@@ -321,6 +338,13 @@
             "ap2Primary": false,
             "ap1ID": 1719510875094,
             "ap2ID": 1719330243723
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1719510875094,
+            "ap2ID": 1719596333544
         }
     ],
     "unitsIndex": "Inches",

@@ -4,5 +4,13 @@
 
 ![](/project.svg)
 
+ 
 
+![readme](/readme1719519431759.svg)
+
+,this is the pattern to be extruded, 
+
+![readme](/readme1719596333544.svg)
+
+,Shrinked form
 

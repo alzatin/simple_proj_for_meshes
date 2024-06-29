@@ -125,15 +125,10 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.7576396206533194,
-            "y": 0.29153605015673983,
+            "x": 0.7502634351949421,
+            "y": 0.3322884012539185,
             "uniqueID": 1719519431759,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719510833234
-                }
-            ],
+            "ioValues": [],
             "readmeText": "Readme text here",
             "global": true
         },
@@ -178,8 +173,8 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.6933614330874605,
-            "y": 0.5078369905956113,
+            "x": 0.696522655426765,
+            "y": 0.5956112852664577,
             "uniqueID": 1719510875094,
             "ioValues": [
                 {
@@ -258,13 +253,6 @@
             "ap2Primary": false,
             "ap1ID": 1719330270543,
             "ap2ID": 1719510875094
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1719510833234,
-            "ap2ID": 1719519431759
         },
         {
             "ap1Name": "geometry",

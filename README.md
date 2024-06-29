@@ -6,10 +6,6 @@
 
  
 
-![readme](/readme1719519431759.svg)
-
-Readme text here 
-
 ![readme](/readme1719596333544.svg)
 
 Readme text here

@@ -199,8 +199,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.6947496947496948,
-            "y": 0.3040752351097179,
+            "x": 0.6935286935286935,
+            "y": 0.3072100313479624,
             "uniqueID": 1719681575387,
             "ioValues": [
                 {
@@ -337,16 +337,31 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.7496947496947497,
-            "y": 0.7304075235109718,
-            "uniqueID": 1719763153900,
+            "x": 0.8070818070818071,
+            "y": 0.3887147335423197,
+            "uniqueID": 1719763187983,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719681575387
+                }
+            ],
+            "readmeText": "difference",
+            "global": true
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.7326007326007326,
+            "y": 0.7742946708463949,
+            "uniqueID": 1719763234362,
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": 1719510875094
                 }
             ],
-            "readmeText": "Readme text here",
+            "readmeText": "rect",
             "global": true
         }
     ],
@@ -419,7 +434,14 @@
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1719510875094,
-            "ap2ID": 1719763153900
+            "ap2ID": 1719763234362
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1719681575387,
+            "ap2ID": 1719763187983
         },
         {
             "ap1Name": "Geometry",
@@ -437,6 +459,13 @@
             "costUSD": null
         }
     ],
-    "projectSVGs": [],
+    "projectSVGs": [
+        {
+            "uniqueID": 1719763187983,
+            "readMeText": "difference \n\n![readme](/readme1719763187983.svg)\n\n",
+            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.583198135066909 -8.208220305068007 14.000002000000002 16.81336251505504\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 1.68026 7.53446 L 1.68026 -0.97409 A 6 3.15241 360 0 1 -5.5832 -4.05581 A 6 3.15241 360 0 1 -4.02909 -6.17273 A 6 3.15241 360 0 1 6.4168 -4.05581 L 6.4168 4.45273 A 6 3.15241 360 0 1 6.37793 4.811 A 3.5 1.8389 180 0 0 1.68026 4.89921\" />\n    <path d=\"M 1.68026 7.53446 A 6 3.15241 360 0 1 -5.5832 4.45273\" />\n    <path d=\"M 6.37793 4.811 L 6.37793 -3.69754 A 3.5 1.8389 180 0 0 1.52828 -3.52658 A 3.5 1.8389 180 0 0 0.62172 -2.29171 A 3.5 1.8389 180 0 0 1.68026 -0.97409\" />\n    <path d=\"M 6.4168 -4.05581 A 6 3.15241 360 0 1 6.37793 -3.69754\" />\n    <path d=\"M -5.5832 -4.05581 L -5.5832 4.45273\" />\n</svg>",
+            "sha": "705047a79c01435ef313410d24ed2de20e0205fc"
+        }
+    ],
     "filetypeVersion": 1
 }

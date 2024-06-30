@@ -333,21 +333,6 @@
             "fileTypeVersion": 1,
             "compiledBom": [],
             "projectSVGs": []
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.8547008547008548,
-            "y": 0.438871473354232,
-            "uniqueID": 1719763393027,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719681575387
-                }
-            ],
-            "readmeText": "Readme text here",
-            "global": true
         }
     ],
     "allConnectors": [
@@ -415,13 +400,6 @@
             "ap2ID": 1719330243723
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1719681575387,
-            "ap2ID": 1719763393027
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 5",
             "ap2Primary": false,
@@ -442,13 +420,7 @@
             "uniqueID": 1719763393027,
             "readMeText": "Readme text here \n\n![readme](/readme1719763393027.svg)\n\n",
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.583198135066909 -8.208220305068007 14.000002000000002 16.81336251505504\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 1.68026 7.53446 L 1.68026 -0.97409 A 6 3.15241 360 0 1 -5.5832 -4.05581 A 6 3.15241 360 0 1 -4.02909 -6.17273 A 6 3.15241 360 0 1 6.4168 -4.05581 L 6.4168 4.45273 A 6 3.15241 360 0 1 6.37793 4.811 A 3.5 1.8389 180 0 0 1.68026 4.89921\" />\n    <path d=\"M 1.68026 7.53446 A 6 3.15241 360 0 1 -5.5832 4.45273\" />\n    <path d=\"M 6.37793 4.811 L 6.37793 -3.69754 A 3.5 1.8389 180 0 0 1.52828 -3.52658 A 3.5 1.8389 180 0 0 0.62172 -2.29171 A 3.5 1.8389 180 0 0 1.68026 -0.97409\" />\n    <path d=\"M 6.4168 -4.05581 A 6 3.15241 360 0 1 6.37793 -3.69754\" />\n    <path d=\"M -5.5832 -4.05581 L -5.5832 4.45273\" />\n</svg>",
-            "sha": "1b72e47d7852f541646c98588e8034378531732e"
-        },
-        {
-            "uniqueID": 1719763234362,
-            "readMeText": "rect \n\n![readme](/readme1719763234362.svg)\n\n",
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-7.000001 -7.000001 26.500002000000002 14.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 0.97955 -5.9195 L 15.65583 -3.43801 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 15.65583 3.43801 L 0.97955 5.9195 A 6 6 0 0 1 -1.39282 5.8361 L -5 5 L -5.85201 1.32437 A 6 6 0 0 1 -6 0 A 6 6 0 0 1 -5.85201 -1.32437 L -5 -5 L -1.39282 -5.8361 A 6 6 0 0 1 0.97955 -5.9195 Z\" />\n</svg>",
-            "sha": "1b72e47d7852f541646c98588e8034378531732e"
+            "sha": "02750fc9a37c6a62a6221f9e8f4f36abe28b2a71"
         }
     ],
     "filetypeVersion": 1

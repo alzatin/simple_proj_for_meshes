@@ -304,12 +304,7 @@
                     "x": 0.6117216117216118,
                     "y": 0.25705329153605017,
                     "uniqueID": 1719753462329,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1719753626921
-                        }
-                    ],
+                    "ioValues": [],
                     "readmeText": "Second read me inside molecule",
                     "global": true
                 },
@@ -345,13 +340,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1719753265208,
                     "ap2ID": 1719753273629
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1719753626921,
-                    "ap2ID": 1719753462329
                 }
             ],
             "unitsIndex": 0,
@@ -458,7 +446,7 @@
         {
             "uniqueID": 1719596333544,
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 25.500002000000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 2 -5 L 12 -5 L 16.28055 -3.25733 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 16.28055 3.25733 L 12 5 L 2 5 L 0.07527 4.99943 A 5 5 0 0 1 -5 0 A 5 5 0 0 1 0.07527 -4.99943 L 2 -5 Z\" />\n</svg>",
-            "sha": "c6a9ccc3d90fbbb05f3cbe48860c9d95162c1417"
+            "sha": "5451748c9ef7f5a93c3736f313f378eb280bffae"
         }
     ],
     "filetypeVersion": 1

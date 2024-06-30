@@ -429,7 +429,7 @@
         {
             "uniqueID": 1719596333544,
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 25.500002000000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 2 -5 L 12 -5 L 16.28055 -3.25733 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 16.28055 3.25733 L 12 5 L 2 5 L 0.07527 4.99943 A 5 5 0 0 1 -5 0 A 5 5 0 0 1 0.07527 -4.99943 L 2 -5 Z\" />\n</svg>",
-            "sha": "d8b8e4d896e84237ae29287e89ba4eb3411857be"
+            "sha": "646865c394e09ef9b565f5296e1aadaff741556e"
         }
     ],
     "filetypeVersion": 1

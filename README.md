@@ -4,19 +4,18 @@
 
 ![](/project.svg)
 
-Second read me inside molecule,inside a molecule w svg ,rectangle inside molecule inside molecule
-, 
-
-![readme](/readme1719754980068.svg)
-
 , 
 
 ![readme](/readme1719753273629.svg)
 
-, 
+,, 
 
 ![readme](/readme1719754980068.svg)
 
 ,nothing connected to this read me input
-,Shrinked form
+,Shrinked form, 
+
+![readme](/readme1719596333544.svg)
+
+
 

@@ -504,31 +504,33 @@
     "projectSVGs": [
         {
             "uniqueID": 1719753462329,
+            "readMeText": "Second read me inside molecule",
             "svg": null,
-            "sha": "204921c09bd3b5522533fb921c5d54553f8c98ed"
+            "sha": "dba9ce3d57dfe5b0469888b1b476fcf6c0534127"
         },
         {
             "uniqueID": 1719753273629,
             "readMeText": "inside a molecule w svg  \n\n![readme](/readme1719753273629.svg)\n\n",
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 0 A 5 5 0 0 0 5 0 A 5 5 0 0 0 -5 0 Z\" />\n</svg>",
-            "sha": "204921c09bd3b5522533fb921c5d54553f8c98ed"
+            "sha": "dba9ce3d57dfe5b0469888b1b476fcf6c0534127"
         },
         {
             "uniqueID": 1719754980068,
             "readMeText": "rectangle inside molecule inside molecule\n \n\n![readme](/readme1719754980068.svg)\n\n",
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z\" />\n</svg>",
-            "sha": "204921c09bd3b5522533fb921c5d54553f8c98ed"
+            "sha": "dba9ce3d57dfe5b0469888b1b476fcf6c0534127"
         },
         {
             "uniqueID": 1719519431759,
+            "readMeText": "nothing connected to this read me input\n",
             "svg": null,
-            "sha": "204921c09bd3b5522533fb921c5d54553f8c98ed"
+            "sha": "dba9ce3d57dfe5b0469888b1b476fcf6c0534127"
         },
         {
             "uniqueID": 1719596333544,
             "readMeText": "Shrinked form \n\n![readme](/readme1719596333544.svg)\n\n",
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-7.000001 -7.000001 26.500002000000002 14.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 0.97955 -5.9195 L 15.65583 -3.43801 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 15.65583 3.43801 L 0.97955 5.9195 A 6 6 0 0 1 -1.39282 5.8361 L -5 5 L -5.85201 1.32437 A 6 6 0 0 1 -6 0 A 6 6 0 0 1 -5.85201 -1.32437 L -5 -5 L -1.39282 -5.8361 A 6 6 0 0 1 0.97955 -5.9195 Z\" />\n</svg>",
-            "sha": "204921c09bd3b5522533fb921c5d54553f8c98ed"
+            "sha": "dba9ce3d57dfe5b0469888b1b476fcf6c0534127"
         }
     ],
     "filetypeVersion": 1

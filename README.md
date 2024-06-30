@@ -12,7 +12,16 @@
 
 ![readme](/readme1719753273629.svg)
 
-,inside a molecule w svg ,nothing connected to this read me input
+,inside a molecule w svg , 
+
+![readme](/readmeundefined.svg)
+
+, 
+
+![readme](/readme1719754980068.svg)
+
+,rectangle inside molecule inside molecule
+,nothing connected to this read me input
 , 
 
 ![readme](/readme1719596333544.svg)

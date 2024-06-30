@@ -21,15 +21,6 @@
             ]
         },
         {
-            "atomType": "Join",
-            "name": "Fusion",
-            "x": 0.39316239316239315,
-            "y": 0.3605015673981191,
-            "uniqueID": 1719330270543,
-            "ioValues": [],
-            "unionType": "Fusion"
-        },
-        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.5742887249736565,
@@ -42,7 +33,7 @@
                 },
                 {
                     "name": "geometry1",
-                    "ioValue": 1719330270543
+                    "ioValue": ""
                 }
             ]
         },
@@ -164,8 +155,8 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.652014652014652,
-            "y": 0.6269592476489029,
+            "x": 0.5653235653235653,
+            "y": 0.5141065830721003,
             "uniqueID": 1719510875094,
             "ioValues": [
                 {
@@ -173,15 +164,15 @@
                     "ioValue": 1719510861398
                 },
                 {
-                    "name": "3D shape 4",
-                    "ioValue": 1719330270543
-                },
-                {
                     "name": "3D shape 5",
                     "ioValue": 1719753247808
                 },
                 {
                     "name": "3D shape 6",
+                    "ioValue": 1719330246128
+                },
+                {
+                    "name": "3D shape 7",
                     "ioValue": ""
                 },
                 {
@@ -189,15 +180,15 @@
                     "ioValue": 1719510861398
                 },
                 {
-                    "name": "3D shape 4",
-                    "ioValue": 1719330270543
-                },
-                {
                     "name": "3D shape 5",
                     "ioValue": 1719753247808
                 },
                 {
                     "name": "3D shape 6",
+                    "ioValue": 1719330246128
+                },
+                {
+                    "name": "3D shape 7",
                     "ioValue": ""
                 }
             ]
@@ -250,8 +241,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.18437118437118435,
-            "y": 0.47648902821316613,
+            "x": 0.18192918192918192,
+            "y": 0.4921630094043887,
             "uniqueID": 1719753247808,
             "ioValues": [],
             "topLevel": false,
@@ -265,7 +256,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1719755004777
+                            "ioValue": 1719754967042
                         }
                     ]
                 },
@@ -399,24 +390,6 @@
                     "fileTypeVersion": 1,
                     "compiledBom": [],
                     "projectSVGs": []
-                },
-                {
-                    "atomType": "Join",
-                    "name": "Fusion",
-                    "x": 0.6923076923076923,
-                    "y": 0.6363636363636364,
-                    "uniqueID": 1719755004777,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 1719753265208
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 1719754967042
-                        }
-                    ],
-                    "unionType": "Fusion"
                 }
             ],
             "allConnectors": [
@@ -428,24 +401,10 @@
                     "ap2ID": 1719753273629
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 1719753265208,
-                    "ap2ID": 1719755004777
-                },
-                {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 1719754967042,
-                    "ap2ID": 1719755004777
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1719755004777,
+                    "ap1ID": 1719754967042,
                     "ap2ID": 1719753247665
                 }
             ],
@@ -458,16 +417,9 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry1",
+            "ap2Name": "3D shape 6",
             "ap2Primary": false,
-            "ap1ID": 1719330270543,
-            "ap2ID": 1719510833234
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 1719330270543,
+            "ap1ID": 1719330246128,
             "ap2ID": 1719510875094
         },
         {

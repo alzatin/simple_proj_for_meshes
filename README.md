@@ -4,27 +4,31 @@
 
 ![](/project.svg)
 
- 
-
-![readme](/readmeundefined.svg)
-
-,Second read me inside molecule, 
+Second read me inside molecule,inside a molecule w svg , 
 
 ![readme](/readme1719753273629.svg)
 
-,inside a molecule w svg , 
+,rectangle inside molecule inside molecule
+, 
 
-![readme](/readmeundefined.svg)
+![readme](/readme1719754980068.svg)
 
 , 
 
 ![readme](/readme1719754980068.svg)
 
-,rectangle inside molecule inside molecule
-,nothing connected to this read me input
 , 
+
+![readme](/readme1719753273629.svg)
+
+, 
+
+![readme](/readme1719754980068.svg)
+
+,nothing connected to this read me input
+,Shrinked form, 
 
 ![readme](/readme1719596333544.svg)
 
-,Shrinked form
+
 

@@ -4,11 +4,7 @@
 
 ![](/project.svg)
 
- Second read me inside molecule 
-
-![readme](/readme1719753462329.svg)
-
-inside a molecule w svg  
+ undefinedinside a molecule w svg  
 
 ![readme](/readme1719753273629.svg)
 
@@ -17,12 +13,7 @@ rectangle inside molecule inside molecule
 
 ![readme](/readme1719754980068.svg)
 
-nothing connected to this read me input
- 
-
-![readme](/readme1719519431759.svg)
-
-Shrinked form 
+undefinedShrinked form 
 
 ![readme](/readme1719596333544.svg)
 

@@ -4,7 +4,11 @@
 
 ![](/project.svg)
 
-nothing connected to this read me input
+ 
+
+![readme](/readme1719753273629.svg)
+
+,inside a molecule w svg ,nothing connected to this read me input
 , 
 
 ![readme](/readme1719596333544.svg)

@@ -28,12 +28,12 @@
             "uniqueID": 1719330270543,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
+                    "name": "3D shape 4",
                     "ioValue": 1719330262485
                 },
                 {
-                    "name": "3D shape 3",
-                    "ioValue": 1719330246128
+                    "name": "3D shape 5",
+                    "ioValue": 1719753247808
                 }
             ],
             "unionType": "Assembly"
@@ -247,16 +247,81 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.19413919413919414,
+            "y": 0.48589341692789967,
+            "uniqueID": 1719753247808,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1719753247665,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1719753265208
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.2869352869352869,
+                    "y": 0.4702194357366772,
+                    "uniqueID": 1719753265208,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.5335775335775336,
+                    "y": 0.677115987460815,
+                    "uniqueID": 1719753273629,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1719753265208
+                        }
+                    ],
+                    "readmeText": "inside a molecule w svg ",
+                    "global": true
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1719753265208,
+                    "ap2ID": 1719753247665
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1719753265208,
+                    "ap2ID": 1719753273629
+                }
+            ],
+            "unitsIndex": 0,
+            "fileTypeVersion": 1,
+            "compiledBom": [],
+            "projectSVGs": []
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1719330246128,
-            "ap2ID": 1719330270543
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry1",
@@ -287,7 +352,7 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
+            "ap2Name": "3D shape 4",
             "ap2Primary": false,
             "ap1ID": 1719330262485,
             "ap2ID": 1719330270543
@@ -333,6 +398,13 @@
             "ap2Primary": false,
             "ap1ID": 1719510875094,
             "ap2ID": 1719596333544
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 5",
+            "ap2Primary": false,
+            "ap1ID": 1719753247808,
+            "ap2ID": 1719330270543
         }
     ],
     "unitsIndex": "Inches",

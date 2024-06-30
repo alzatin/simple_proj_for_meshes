@@ -251,8 +251,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.19413919413919414,
-            "y": 0.48589341692789967,
+            "x": 0.18803418803418803,
+            "y": 0.4796238244514106,
             "uniqueID": 1719753247808,
             "ioValues": [],
             "topLevel": false,
@@ -296,6 +296,16 @@
                         }
                     ],
                     "readmeText": "inside a molecule w svg ",
+                    "global": true
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.6117216117216118,
+                    "y": 0.25705329153605017,
+                    "uniqueID": 1719753462329,
+                    "ioValues": [],
+                    "readmeText": "Second read me inside molecule",
                     "global": true
                 }
             ],
@@ -419,7 +429,7 @@
         {
             "uniqueID": 1719596333544,
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 25.500002000000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 2 -5 L 12 -5 L 16.28055 -3.25733 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 16.28055 3.25733 L 12 5 L 2 5 L 0.07527 4.99943 A 5 5 0 0 1 -5 0 A 5 5 0 0 1 0.07527 -4.99943 L 2 -5 Z\" />\n</svg>",
-            "sha": "d81f4271a8361ac21e34b8bf9e35d6edd2cfa9ce"
+            "sha": "d8b8e4d896e84237ae29287e89ba4eb3411857be"
         }
     ],
     "filetypeVersion": 1

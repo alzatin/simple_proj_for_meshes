@@ -116,8 +116,8 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.79768177028451,
-            "y": 0.34796238244514105,
+            "x": 0.7545787545787546,
+            "y": 0.3385579937304075,
             "uniqueID": 1719519431759,
             "ioValues": [],
             "readmeText": "nothing connected to this read me input\n",
@@ -218,8 +218,8 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.8324552160168599,
-            "y": 0.8338557993730408,
+            "x": 0.8376068376068375,
+            "y": 0.7178683385579937,
             "uniqueID": 1719596333544,
             "ioValues": [
                 {
@@ -301,7 +301,7 @@
                     "atomType": "Readme",
                     "name": "README",
                     "x": 0.6117216117216118,
-                    "y": 0.25705329153605017,
+                    "y": 0.2664576802507837,
                     "uniqueID": 1719753462329,
                     "ioValues": [],
                     "readmeText": "Second read me inside molecule",
@@ -327,8 +327,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 0.19536019536019536,
-                    "y": 0.7366771159874608,
+                    "x": 0.19047619047619047,
+                    "y": 0.7304075235109718,
                     "uniqueID": 1719754967042,
                     "ioValues": [],
                     "topLevel": false,
@@ -349,8 +349,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.30158730158730157,
-                            "y": 0.7398119122257053,
+                            "x": 0.23076923076923078,
+                            "y": 0.4482758620689655,
                             "uniqueID": 1719754975232,
                             "ioValues": [
                                 {
@@ -546,12 +546,17 @@
         {
             "uniqueID": 1719753273629,
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 0 A 5 5 0 0 0 5 0 A 5 5 0 0 0 -5 0 Z\" />\n</svg>",
-            "sha": "86fda57f5d3fbac49d31ffd44415888e6c045660"
+            "sha": "6313e9ff3b8e968dd33e68f39aa579e7b148c745"
+        },
+        {
+            "uniqueID": 1719754980068,
+            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z\" />\n</svg>",
+            "sha": "6313e9ff3b8e968dd33e68f39aa579e7b148c745"
         },
         {
             "uniqueID": 1719596333544,
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 25.500002000000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 2 -5 L 12 -5 L 16.28055 -3.25733 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 16.28055 3.25733 L 12 5 L 2 5 L 0.07527 4.99943 A 5 5 0 0 1 -5 0 A 5 5 0 0 1 0.07527 -4.99943 L 2 -5 Z\" />\n</svg>",
-            "sha": "86fda57f5d3fbac49d31ffd44415888e6c045660"
+            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0.9999990000000001 -6.000001 18.500002000000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 2 -5 L 12 -5 L 16.28055 -3.25733 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 16.28055 3.25733 L 12 5 L 2 5 L 2 4.6 L 2 -5 Z\" />\n</svg>",
+            "sha": "6313e9ff3b8e968dd33e68f39aa579e7b148c745"
         }
     ],
     "filetypeVersion": 1

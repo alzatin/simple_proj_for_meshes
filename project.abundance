@@ -333,6 +333,21 @@
             "fileTypeVersion": 1,
             "compiledBom": [],
             "projectSVGs": []
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.7057387057387057,
+            "y": 0.7899686520376176,
+            "uniqueID": 1719764496103,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719510875094
+                }
+            ],
+            "readmeText": "round",
+            "global": true
         }
     ],
     "allConnectors": [
@@ -398,6 +413,13 @@
             "ap2Primary": false,
             "ap1ID": 1719510875094,
             "ap2ID": 1719330243723
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1719510875094,
+            "ap2ID": 1719764496103
         },
         {
             "ap1Name": "Geometry",

@@ -209,8 +209,8 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.7643467643467644,
-            "y": 0.7523510971786834,
+            "x": 0.7704517704517705,
+            "y": 0.7742946708463949,
             "uniqueID": 1719596333544,
             "ioValues": [
                 {
@@ -505,27 +505,32 @@
         {
             "uniqueID": 1719753462329,
             "readMeText": "Second read me inside molecule \n\n![readme](/readme1719753462329.svg)\n\n",
-            "svg": null
+            "svg": null,
+            "sha": "b9b382dcfcd2572a6ece75a73f074a3cd7cb14ca"
         },
         {
             "uniqueID": 1719753273629,
             "readMeText": "inside a molecule w svg  \n\n![readme](/readme1719753273629.svg)\n\n",
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 0 A 5 5 0 0 0 5 0 A 5 5 0 0 0 -5 0 Z\" />\n</svg>"
+            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 0 A 5 5 0 0 0 5 0 A 5 5 0 0 0 -5 0 Z\" />\n</svg>",
+            "sha": "b9b382dcfcd2572a6ece75a73f074a3cd7cb14ca"
         },
         {
             "uniqueID": 1719754980068,
             "readMeText": "rectangle inside molecule inside molecule\n \n\n![readme](/readme1719754980068.svg)\n\n \n\n![readme](/readme1719754980068.svg)\n\n",
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z\" />\n</svg>"
+            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z\" />\n</svg>",
+            "sha": "b9b382dcfcd2572a6ece75a73f074a3cd7cb14ca"
         },
         {
             "uniqueID": 1719519431759,
             "readMeText": "nothing connected to this read me input\n",
-            "svg": null
+            "svg": null,
+            "sha": "b9b382dcfcd2572a6ece75a73f074a3cd7cb14ca"
         },
         {
             "uniqueID": 1719596333544,
             "readMeText": "Shrinked form",
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-7.000001 -7.000001 26.500002000000002 14.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 0.97955 -5.9195 L 15.65583 -3.43801 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 15.65583 3.43801 L 0.97955 5.9195 A 6 6 0 0 1 -1.39282 5.8361 L -5 5 L -5.85201 1.32437 A 6 6 0 0 1 -6 0 A 6 6 0 0 1 -5.85201 -1.32437 L -5 -5 L -1.39282 -5.8361 A 6 6 0 0 1 0.97955 -5.9195 Z\" />\n</svg>"
+            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-7.000001 -7.000001 26.500002000000002 14.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M 0.97955 -5.9195 L 15.65583 -3.43801 A 3.5 3.5 0 0 1 18.5 0 A 3.5 3.5 0 0 1 15.65583 3.43801 L 0.97955 5.9195 A 6 6 0 0 1 -1.39282 5.8361 L -5 5 L -5.85201 1.32437 A 6 6 0 0 1 -6 0 A 6 6 0 0 1 -5.85201 -1.32437 L -5 -5 L -1.39282 -5.8361 A 6 6 0 0 1 0.97955 -5.9195 Z\" />\n</svg>",
+            "sha": "b9b382dcfcd2572a6ece75a73f074a3cd7cb14ca"
         }
     ],
     "filetypeVersion": 1

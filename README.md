@@ -6,16 +6,10 @@
 
 
 
- Second read me inside molecule
+ Readme text here 
 
-rectangle inside molecule inside molecule
- 
+![readme](/readme1719763153900.svg)
 
-![readme](/readme1719754980068.svg)
-
-
-
-nothing connected to this read me input
 
 
 

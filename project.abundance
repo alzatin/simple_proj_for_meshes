@@ -105,16 +105,6 @@
             ]
         },
         {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.7704517704517705,
-            "y": 0.3166144200626959,
-            "uniqueID": 1719519431759,
-            "ioValues": [],
-            "readmeText": "nothing connected to this read me input\n",
-            "global": true
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.3298208640674394,
@@ -259,16 +249,6 @@
                     ]
                 },
                 {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 0.6117216117216118,
-                    "y": 0.2664576802507837,
-                    "uniqueID": 1719753462329,
-                    "ioValues": [],
-                    "readmeText": "Second read me inside molecule",
-                    "global": true
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 0.30036630036630035,
@@ -288,8 +268,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 0.19047619047619047,
-                    "y": 0.7304075235109718,
+                    "x": 0.18803418803418803,
+                    "y": 0.7366771159874608,
                     "uniqueID": 1719754967042,
                     "ioValues": [],
                     "topLevel": false,
@@ -323,21 +303,6 @@
                                     "ioValue": 10
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "Readme",
-                            "name": "README",
-                            "x": 0.6923076923076923,
-                            "y": 0.7492163009404389,
-                            "uniqueID": 1719754980068,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1719754975232
-                                }
-                            ],
-                            "readmeText": "rectangle inside molecule inside molecule\n",
-                            "global": true
                         }
                     ],
                     "allConnectors": [
@@ -347,13 +312,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1719754975232,
                             "ap2ID": 1719754967598
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1719754975232,
-                            "ap2ID": 1719754980068
                         }
                     ],
                     "unitsIndex": 0,
@@ -375,6 +333,21 @@
             "fileTypeVersion": 1,
             "compiledBom": [],
             "projectSVGs": []
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.7496947496947497,
+            "y": 0.7304075235109718,
+            "uniqueID": 1719763153900,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719510875094
+                }
+            ],
+            "readmeText": "Readme text here",
+            "global": true
         }
     ],
     "allConnectors": [
@@ -442,6 +415,13 @@
             "ap2ID": 1719330243723
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1719510875094,
+            "ap2ID": 1719763153900
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 5",
             "ap2Primary": false,
@@ -457,31 +437,6 @@
             "costUSD": null
         }
     ],
-    "projectSVGs": [
-        {
-            "uniqueID": 1719753462329,
-            "readMeText": "Second read me inside molecule",
-            "svg": null,
-            "sha": "5530ef40033db7ae80ccff94418dc7c23d872637"
-        },
-        {
-            "uniqueID": 1719753273629,
-            "readMeText": "inside a molecule w svg  \n\n![readme](/readme1719753273629.svg)\n\n",
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 0 A 5 5 0 0 0 5 0 A 5 5 0 0 0 -5 0 Z\" />\n</svg>",
-            "sha": "5530ef40033db7ae80ccff94418dc7c23d872637"
-        },
-        {
-            "uniqueID": 1719754980068,
-            "readMeText": "rectangle inside molecule inside molecule\n \n\n![readme](/readme1719754980068.svg)\n\n",
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z\" />\n</svg>",
-            "sha": "5530ef40033db7ae80ccff94418dc7c23d872637"
-        },
-        {
-            "uniqueID": 1719519431759,
-            "readMeText": "nothing connected to this read me input\n",
-            "svg": null,
-            "sha": "5530ef40033db7ae80ccff94418dc7c23d872637"
-        }
-    ],
+    "projectSVGs": [],
     "filetypeVersion": 1
 }

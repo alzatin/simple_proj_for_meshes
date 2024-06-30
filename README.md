@@ -8,12 +8,6 @@
 
  Second read me inside molecule
 
-inside a molecule w svg  
-
-![readme](/readme1719753273629.svg)
-
-
-
 rectangle inside molecule inside molecule
  
 

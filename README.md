@@ -24,11 +24,5 @@ rectangle inside molecule inside molecule
 nothing connected to this read me input
 
 
-Shrinked form 
-
-![readme](/readme1719596333544.svg)
-
-
-
 
 

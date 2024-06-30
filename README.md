@@ -8,27 +8,11 @@
 
 ![readme](/readme1719753462329.svg)
 
- 
-
-![readme](/readme1719753462329.svg)
-
 inside a molecule w svg  
 
 ![readme](/readme1719753273629.svg)
 
- 
-
-![readme](/readme1719753273629.svg)
-
 rectangle inside molecule inside molecule
- 
-
-![readme](/readme1719754980068.svg)
-
- 
-
-![readme](/readme1719754980068.svg)
-
  
 
 ![readme](/readme1719754980068.svg)

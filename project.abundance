@@ -86,8 +86,8 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.45034414945919377,
-            "y": 0.4012158054711247,
+            "x": 0.48840688107703817,
+            "y": 0.36778115501519754,
             "uniqueID": 1719510875094,
             "ioValues": [
                 {
@@ -132,8 +132,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6106194690265487,
-            "y": 0.6322188449848024,
+            "x": 0.5691847419596111,
+            "y": 0.7142857142857143,
             "uniqueID": 1720887993409,
             "ioValues": [
                 {
@@ -142,7 +142,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": 10
                 },
                 {
                     "name": "yDist",
@@ -150,9 +150,43 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Loft",
+            "name": "Loft",
+            "x": 0.7202692595362753,
+            "y": 0.5562310030395137,
+            "uniqueID": 1720888513859,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1720887993409
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1719510875094
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1720887993409
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1719510875094
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                }
+            ],
+            "closedSelection": 0
         }
     ],
     "allConnectors": [
@@ -197,6 +231,20 @@
             "ap2Primary": true,
             "ap1ID": 1719510875094,
             "ap2ID": 1720887993409
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1719510875094,
+            "ap2ID": 1720888513859
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1720887993409,
+            "ap2ID": 1720888513859
         }
     ],
     "fileTypeVersion": 1,
